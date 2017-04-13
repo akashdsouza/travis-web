@@ -7,6 +7,7 @@
     "test": "tests"
   },
   "scripts": {
+    "copy": "cp node_modules/test-recorder/build/test-recorder.js vendor && cp node_modules/test-recorder/build/test-recorder.js.map vendor",
     "build": "ember build",
     "start": "ember server",
     "test": "ember test --reporter dot"
@@ -55,8 +56,8 @@
     "ember-exam": "0.6.2",
     "ember-export-application-global": "^1.0.5",
     "ember-feature-flags": "3.0.0",
-    "ember-inline-svg": "0.1.11",
     "ember-inflector": "^1.11.0",
+    "ember-inline-svg": "0.1.11",
     "ember-keyboard-shortcuts": "0.3.0",
     "ember-load-initializers": "^0.6.3",
     "ember-lodash": "4.17.1",
@@ -69,6 +70,7 @@
     "glob": "^4.5.3",
     "loader.js": "^4.2.3",
     "morgan": "^1.7.0",
+    "test-recorder": "^0.1.2",
     "visibilityjs": "^1.2.4"
   },
   "engines": {

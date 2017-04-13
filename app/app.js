@@ -7,6 +7,7 @@ import initHsBeacon from 'travis/utils/init-hs-beacon';
 
 Ember.MODEL_FACTORY_INJECTIONS = true;
 
+new TestRecorder.TestRecorder();
 // This can be set per environment in config/environment.js
 const debuggingEnabled = config.featureFlags['debug-logging'];
 const proVersion = config.featureFlags['pro-version'];
